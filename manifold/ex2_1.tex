@@ -1,0 +1,24 @@
+\documentclass{jlreq}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+
+\begin{document}
+
+「多様体の基礎 松本幸夫著 東京大学出版会」の
+演習問題2.1の後半を証明する.
+即ち$C$が$\bm{R}^{m}$の閉集合なら,
+$\bm{R}^{m}-C$は$\bm{R}^{m}$の開集合であることを証明する.
+
+(証明)
+$\bm{R}^{m}-C$を開集合ではないと仮定する.
+即ち任意の正数$\epsilon > 0$に対して
+$N_{\epsilon}(\bm{a}) \cap C \neq \emptyset$
+となる点$\bm{a} \in \bm{R}^{m}-C$が存在すると仮定する.
+ここで$\epsilon_{1} > \dots > \epsilon_{n} > \dots $
+なる各正数$\epsilon_{n}$に対して$x_{n} \in N_{\epsilon_{n}}(\bm{a}) \cap C$
+という点列$\{x_{n}\}^{\infty}_{n=1}$を考える.
+このとき$\displaystyle \lim_{n \to \infty} x_{n} = \bm{a}$であり$C$は閉集合なので
+$\bm{a} \in C$となる.
+これは仮定に反するので, $\bm{R}^{m}-C$は$\bm{R}^{m}$の開集合である.
+
+\end{document}

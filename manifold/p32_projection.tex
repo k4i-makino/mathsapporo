@@ -1,0 +1,29 @@
+\documentclass{jlreq}
+%\usepackage{amsmath,amssymb}
+%\usepackage{bm}
+
+\begin{document}
+
+「多様体の基礎 松本幸夫著 東京大学出版会」の
+32ページに記載のある射影が連続であることを証明する.
+即ち積空間$( X_{1} \times X_{2} \times \cdots \times X_{k} )$の
+点$(p_{1} , p_{2} , \cdots , p_{k} )$に, $i$番目の点$p_{i}$を
+対応させる写像
+\[ \pi_{i} : X_{1} \times X_{2} \times \cdots \times X_{k} \to X_{i} \]
+が連続であることを証明する.
+
+(証明)
+
+$X_{i}$の任意の開集合を$B$とすると, その射影による逆像$\pi_{i}^{-1}(B)$は
+$X_{1} \times X_{2} \times \cdots \times X_{k}$の部分集合で,
+その$i$番目の要素が射影により$B$に写る集合なので
+\[ \pi_{i}^{-1}(B) = X_{1} \times X_{2} \times \cdots \times
+    \stackrel{i}{\breve{B}} \times \cdots \times X_{k} \]
+となる.
+ここで$X_{1}, X_{2}, \cdots , \stackrel{i}{\breve{B}} , \cdots , X_{k}$は
+それぞれ位相空間$X_{j} (1 \le j \le k)$の開集合なので,
+$\pi_{i}^{-1}(B)$は積空間$( X_{1} \times X_{2} \times \cdots \times X_{k} )$の
+開集合である.
+従って射影$\pi_{i}$は連続である.
+
+\end{document}
